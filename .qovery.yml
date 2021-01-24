@@ -1,0 +1,10 @@
+application:
+  name: node-app
+  project: environment-variables-demo
+  publicly_accessible: true
+routers:
+- name: main
+  routes:
+  - application_name: node-app
+    paths:
+    - /*
