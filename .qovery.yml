@@ -1,10 +1,11 @@
+---
 application:
-  name: node-app
-  project: environment-variables-demo
-  publicly_accessible: true
+  name: "node-app"
+  project: "environment-variables-demo"
+  organization: "QoveryCommunity"
 routers:
-- name: main
+- name: "main-node-app"
   routes:
-  - application_name: node-app
+  - application_name: "node-app"
     paths:
-    - /*
+    - "/*"
